@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.headersd {
+  color:#e7f3f5 ;
+  font-family:'Oleo Script Swash Caps', roboto;
+  font-size:20px ;
+  line-height:20px ;
+padding-top: 30px;
+
+
+}
+.bloque_header{
+webkit-box-shadow: 4px 36px 75px -4px rgba(201,22,201,1);
+moz-box-shadow: 4px 36px 75px -4px rgba(201,22,201,1);
+box-shadow: 4px 36px 75px -4px rgba(201,22,201,1);
+width: 70%;
+margin: auto;
+margin-bottom: 50px;
+border-radius: 30px;
+}
+body{
+  background-color:#f589dad7;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+.links{
+  display:inline-block;
+  margin-right: auto;
+  text-align:center;
+}
+.link{
+  width: 50px;
+  display:inline
+}
+.bloque_foto1{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+border:solid rgb(183, 17, 128) 2px;
+border: 5px dotted white;
+}
+.bloque_foto1:hover {
+  filter: opacity(.5);
+}
+.container{
+display:inline-block;
+text-align:center;
+width: 100%;
+
+}
+
+.enlaces{
+  color:rgb(31, 211, 243) ;
+  text-decoration: 20px;
+  width:45px;
+  height:45px;
+
+}
+.enlaces:hover{
+  filter: invert(11%) sepia(96%) saturate(4455%) hue-rotate(335deg) brightness(109%) contrast(97%);
+  transform:scale(1.3);transform:scale(1.3);
+  hoverflow:hidden;
+}
+h2{
+  color: #D10841 ;
+}
+h3{
+  color: #FB060D;
+}
+.boton_personalizado{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #eb0d0d;
+  background-color: #DB2290;
+  border-radius: 6px;
+  width: 110px;
+  margin: auto;
+}
+.boton_personalizado:hover{
+  color: #1883ba;
+  background-color: #fb1849;
+}
+
+.bloque_separador_1{
+  margin-left:20px;
+  webkit-box-shadow: 4px 36px 75px -4px rgba(201,22,201,1);
+  moz-box-shadow: 4px 36px 75px -4px rgba(201,22,201,1);
+  box-shadow: 4px 36px 75px -4px rgba(201,22,201,1);
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 60%;
+}
